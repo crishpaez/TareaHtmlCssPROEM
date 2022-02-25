@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+/*
+font-family: 'Gowun Batang', serif
+*/
+
+header{
+    background-color: burlywood;
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main{
+    background-color: rgba(222, 184, 135, 0.884);
+    height: 500px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.TitleMapIstea > h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.MapAccenture, iframe {
+    width: 300px;
+    height: 225px;
+    margin: 0 auto;
+    background-color: #777;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-family:serif;
+    font-size: small;
+
+}
+
+h1{
+    background-color: rgb(0, 0, 92);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#navLink{
+    margin-top: 15px;
+}
+
+a{    
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgba(83, 83, 83, 0.589);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+a:hover{
+    background-color: rgba(182, 47, 47, 0.753);
+    font-size: 18.2px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#descriptionACC{
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+#pInfo{
+    background-color: lightblue;
+}
+
+.mainContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divUserRegister{    
+    background-color: lightblue;
+    padding-left: 2%;
+    width: 30%;        
+}
